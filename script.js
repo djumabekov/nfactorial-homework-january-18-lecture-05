@@ -31,5 +31,5 @@ console.log(firstInput, firstInput.name);
 
 // 6. Последний `input` в этой форме.
 
-const lastInput = document.querySelectorAll('input');
-console.log(lastInput[lastInput.length - 1], lastInput[lastInput.length - 1].value);
+const lastInput = document.querySelectorAll('input')[lastInput.length - 1];
+console.log(lastInput, lastInput.value);
